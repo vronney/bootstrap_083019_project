@@ -67,7 +67,7 @@ body {
 }
 
 /* Break point for medium screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   .text-uppercase {
     top: 220px;
     font-size: 1.5em;
@@ -88,7 +88,7 @@ body {
 }
 
 /* Breaking point for large screens */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 800px) and (max-width: 992px) {
   .text-uppercase {
     top: 220px;
     font-size: 1.5em;
@@ -109,7 +109,7 @@ body {
 }
 
 /* Breaking point for xl-large screens */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
   .text-uppercase {
     top: 220px;
     font-size: 1.5em;
