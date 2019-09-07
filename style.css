@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* .col {
+  background-color: grey;
+  border: 2px solid #000000;
+} */
+
+.text-uppercase {
+  position: absolute;  
+  font-size: 2em;
+  top: 60px;
+  color: #ffffff;
+}
+
+.row2 .text-uppercase {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 390px;
+  /* left: -12px; */
+  color: #ffffff;
+  /* font-weight: bold; */
+}
+
+.btn {
+  position: absolute;
+  top: 350px;
+  /* left: 700px; */
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.container-fluid {
+  background: url("/images/pc_blank_screen_w_amor.png");
+  background-position: center 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* Break point for small screens */
+@media only screen and (max-width: 576px) {
+  .text-uppercase {
+    top: 220px;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  .btn {
+    top: 400px;
+    /* left: 150px; */
+    font-size: .8em;
+  }
+
+  .row2 .text-uppercase {
+    top: 440px;
+    /* left: -2px; */
+    font-size: 1em;
+  }
+}
+
+/* Break point for medium screens */
+@media only screen and (max-width: 768px) {
+  .text-uppercase {
+    top: 220px;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  .btn {
+    top: 400px;
+    /* left: 150px; */
+    font-size: .8em;
+  }
+
+  .row2 .text-uppercase {
+    top: 440px;
+    /* left: -2px; */
+    font-size: 1em;
+  }
+}
+
+/* Breaking point for large screens */
+@media only screen and (max-width: 992px) {
+  .text-uppercase {
+    top: 220px;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  .btn {
+    top: 400px;
+    /* left: 150px; */
+    font-size: .8em;
+  }
+
+  .row2 .text-uppercase {
+    top: 440px;
+    /* left: -2px; */
+    font-size: 1em;
+  }
+}
+
+/* Breaking point for xl-large screens */
+@media only screen and (max-width: 1200px) {
+  .text-uppercase {
+    top: 220px;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  .btn {
+    top: 400px;
+    /* left: 150px; */
+    font-size: .8em;
+  }
+
+  .row2 .text-uppercase {
+    top: 440px;
+    /* left: -2px; */
+    font-size: 1em;
+  }
+}
+
+
+
