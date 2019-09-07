@@ -60,8 +60,8 @@ body {
   }
 
   .row2 .text-uppercase {
-    top: 200px;
-    /* left: -2px; */
+    top: 400px;
+    left: -10px;
     font-size: 1em;
   }
 }
