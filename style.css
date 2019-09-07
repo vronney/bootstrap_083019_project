@@ -48,19 +48,19 @@ body {
 /* Break point for small screens */
 @media only screen and (max-width: 576px) {
   .text-uppercase {
-    top: 220px;
+    top: 200px;
     font-size: 1.5em;
     color: #ffffff;
   }
 
   .btn {
-    top: 400px;
+    top: 360px;
     /* left: 150px; */
     font-size: .8em;
   }
 
   .row2 .text-uppercase {
-    top: 440px;
+    top: 200px;
     /* left: -2px; */
     font-size: 1em;
   }
