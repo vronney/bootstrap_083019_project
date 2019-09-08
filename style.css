@@ -47,20 +47,25 @@ body {
 
 /* Break point for small screens */
 @media only screen and (max-width: 576px) {
+  .container-fluid {
+    background-position-y: -75px;
+    height: 100vh;
+  }
+
   .text-uppercase {
-    top: 190px;
+    top: 120px;
     font-size: 1.5em;
     color: #ffffff;
   }
 
   .btn {
-    top: 360px;
+    top: 275px;
     /* left: 150px; */
     font-size: .8em;
   }
 
   .row2 .text-uppercase {
-    top: 400px;
+    top: 320px;
     left: -10px;
     font-size: 1em;
   }
