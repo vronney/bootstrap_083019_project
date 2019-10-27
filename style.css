@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -21,7 +27,7 @@ body {
 .row2 .text-uppercase {
   position: absolute;
   font-size: 1.5rem;
-  top: 390px;
+  top: 420px;
   /* left: -12px; */
   color: #ffffff;
   /* font-weight: bold; */
@@ -29,7 +35,7 @@ body {
 
 .btn {
   position: absolute;
-  top: 350px;
+  top: 370px;
   /* left: 700px; */
 }
 
@@ -38,11 +44,12 @@ body {
 }
 
 .container-fluid {
-  background-image: url('./images/pc_blank_screen_w_amor.jpg');
+  background-image: url('./images/header.jpg');
   background-position: center 80%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 /* Break point for small screens */
@@ -59,13 +66,13 @@ body {
   }
 
   .btn {
-    top: 275px;
+    top: 460px;
     /* left: 150px; */
     font-size: .8em;
   }
 
   .row2 .text-uppercase {
-    top: 320px;
+    top: 500px;
     left: -10px;
     font-size: 1em;
   }
@@ -80,13 +87,13 @@ body {
   }
 
   .btn {
-    top: 400px;
+    top: 540px;
     /* left: 150px; */
     font-size: .8em;
   }
 
   .row2 .text-uppercase {
-    top: 440px;
+    top: 580px;
     /* left: -2px; */
     font-size: 1em;
   }
@@ -101,13 +108,13 @@ body {
   }
 
   .btn {
-    top: 400px;
+    top: 430px;
     /* left: 150px; */
     font-size: .8em;
   }
 
   .row2 .text-uppercase {
-    top: 440px;
+    top: 465px;
     /* left: -2px; */
     font-size: 1em;
   }
@@ -122,13 +129,13 @@ body {
   }
 
   .btn {
-    top: 400px;
+    top: 300px;
     /* left: 150px; */
     font-size: .8em;
   }
 
   .row2 .text-uppercase {
-    top: 440px;
+    top: 455px;
     /* left: -2px; */
     font-size: 1em;
   }
